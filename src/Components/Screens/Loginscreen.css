@@ -1,0 +1,139 @@
+.Loginscreen{
+    position: relative;
+    height: 100%;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/4d9d5abf-07d8-4dd6-9899-a96b902312ee/IN-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg') center no-repeat;
+}
+
+.logo{
+    position: fixed;
+    width: 180px;
+    left: 0;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.login_buttons{
+    top: 20px;
+    right: 20px;
+    position: fixed;
+   float: right;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.img-grad{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+}
+
+.loginscreen_body h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    
+}
+
+.loginscreen_body h2{
+    font-weight: 500;
+
+    
+}
+
+.loginscreen_body h5{
+   font-weight: lighter;
+}
+.loginscreen_body{
+    position: absolute;
+    margin:0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+   
+}
+
+@media screen and (max-width: 600px){
+    .loginscreen_body h1{
+        font-size: 2rem;
+        margin-bottom: 10px;
+
+        
+    }
+    
+    .loginscreen_body h2{
+        font-size: 1.2rem;
+        font-weight: 500;
+    
+        
+    }
+    
+    .loginscreen_body h5{
+        font-size: 0.8rem;
+       font-weight: lighter;
+    }
+    .logo{
+       width: 140px;
+       top: 0.5%;
+    }
+    .loginscreen_input > form > input{
+        padding: 8px;
+        outline-width: 0;
+        height: 20px;
+        width: 80%;
+        border: none;
+        max-width: 600px;
+     }
+     .button-getstarted{
+   
+  
+            color: white;
+            background-color: #e50914;
+            border: none;
+        border-radius: 2px;
+        font-size: 0.5rem;
+        font-weight: 400;
+        line-height: normal;
+        padding: 7px 17px;
+        object-fit: contain;
+        cursor: pointer;
+       
+    }
+}
+
+.loginscreen_input > form > input{
+   padding: 10px;
+   outline-width: 0;
+   height: 52.35px;
+   width: 40%;
+   border: none;
+   max-width: 600px;
+   
+}
+
+.button-getstarted{
+   
+  
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    line-height: normal;
+    padding: 16px 20px;
+    object-fit: contain;
+    cursor: pointer;
+   
+}

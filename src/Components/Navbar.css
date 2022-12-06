@@ -1,0 +1,62 @@
+.nav_content{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.neflix_img{
+    position: fixed;
+   width: 11rem;
+   height: 5.5rem;
+   top: 0.1rem;
+   object-fit: contain;
+   cursor: pointer;
+   margin-left: 2rem;
+}
+
+.avtar{
+    position: fixed;
+    right: 2rem;
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    top: 1.1rem;
+    border-radius: 0.2rem;
+
+}
+
+.nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    padding: 2rem;
+    z-index: 1;
+    transition-timing-function: ease-in-out;
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+
+    .neflix_img{
+        position: fixed;
+       width: 9rem;
+       height: 4rem;
+       top: 0.1rem;
+       object-fit: contain;
+       cursor: pointer;
+       margin-left: 2rem;
+    }
+
+    
+.avtar{
+    position: fixed;
+    right: 2rem;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    top: 1.1rem;
+    border-radius: 0.2rem;
+
+}
+
+}
